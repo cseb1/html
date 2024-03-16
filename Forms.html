@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <!--
+        form input type
+        placeholder used for given hint
+    -->
+    <form>
+        <label for="email">UserName:</label>
+        <input type="text" id="email" placeholder="enter email" required="true"> <br>
+        <label for="passwd">PassWord:</label>
+        <input type="password" id="passwd" placeholder="enter password" required="" true><br>
+
+        Submit: <input type="submit"><br>
+
+        <!--
+            Date for using calender
+        -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" placeholder="enter date"> <br>
+        <!--
+            File -- used to store any file
+        -->
+        <label for="file">File:</label>
+        <input type="file" id="file" placeholder="Enter file"> <br>
+
+        <!--
+            color -- used for store color
+        -->
+        <label for="color">Color:</label>
+        <input type="color" id="color" placeholder="Enter color"> <br>
+        <!--
+            range -- 
+        -->
+        Price Range: <input type="range"><br>
+        <!--
+            Button type
+        -->
+        Poke Me: <input type="button" value="poked"><br>
+
+        <!--
+            Radio button 
+            used to select one single choice
+        -->
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+    </form>
+    <!--
+        checkbox tags
+    -->
+    <form action="">
+        <label for="c">C</label>
+        <input type="checkbox" name="language" id="c" value="c"><br>
+        <label for="java">Java</label>
+        <input type="checkbox" name="language" id="java" value="java"><br>
+        <label for="python">Python</label>
+        <input type="checkbox" name="language" id="python" value="python">
+    </form>
+
+    <!--
+        select input
+    -->
+    <form>
+        <label for="country">Select your Country:</label>
+        <select name="Country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Thailand">Thailand</option>
+        </select>
+    </form>
+
+    <!-- 
+        text Area
+    -->
+    <form>
+        <textarea name="story" id="story" cols="20" rows="4">Enter text</textarea>
+    </form>
+    <iframe src="https://www.youtube.com/embed/rklidcZ-aLU?si=hdHUtFVf5p1P8LiG" height="300px" width="300px"></iframe>
+</body>
+
+</html>
